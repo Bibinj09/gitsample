@@ -71,3 +71,25 @@ Currently, two official plugins are available:
 5. **Update:** Make changes based on feedback and push updates to the branch.
 6. **Approval:** Once approved, merge the PR into the target branch.
 7. **Close PR:** Close the PR and delete the feature branch if no longer needed.
+
+
+### Project Structure
+
+vehicle-service/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Dashboard/
+│   │   ├── Repair/
+│   │   ├── Refueling/
+│   │   ├── Towing/
+│   │   ├── Admin/
+│   ├── redux/
+│   │   ├── actions/
+│   │   ├── reducers/
+│   ├── services/
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js
+│   ├── store.js
+└── package.json
